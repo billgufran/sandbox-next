@@ -1,6 +1,8 @@
+"use client"
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
+import { Typography } from '@brikl/design-storefront'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -8,6 +10,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+        <Typography className='text-global-brand-color-500'>This is the font Typography</Typography>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>

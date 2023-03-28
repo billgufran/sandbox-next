@@ -1,9 +1,15 @@
-import './globals.css'
+"use client";
+import { createTheme, ThemeProvider } from "@brikl/design-storefront";
+import "./globals.css";
+
+const theme = createTheme({
+  "brks-global-brand-color-500": "#FF6D00",
+});
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -12,7 +18,9 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body>
+        <ThemeProvider theme={theme}>{children}</ThemeProvider>
+      </body>
     </html>
-  )
+  );
 }
