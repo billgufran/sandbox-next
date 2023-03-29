@@ -2,15 +2,18 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
-import { Typography } from '@brikl/design-storefront'
+import { Button, Typography } from '@brikl/design-storefront'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+      <div className='flex flex-col gap-space-lg'>
+        <Button>Click Me</Button>
         <Typography className='text-global-brand-color-500'>This is the font Typography</Typography>
+      </div>
+      <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
