@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@brikl/design-storefront": "1.2.0-alpha-update-generated-file-to-be-typescript.3",
+    "@brikl/design-storefront": "1.2.0-alpha-update-generated-file-to-be-typescript.4",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@next/font": "13.1.6",

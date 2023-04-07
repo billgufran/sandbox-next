@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className='flex flex-col gap-space-lg'>
-        <Button>Click Me</Button>
-        <Typography className='text-global-brand-color-500'>This is the font Typography</Typography>
+        <Button variant="ghost">Click Me</Button>
+        <Typography className='text-global-brand-color-500' variant="">This is the font Typography</Typography>
       </div>
       <div className={styles.description}>
         <p>
