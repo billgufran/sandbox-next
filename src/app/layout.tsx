@@ -1,10 +1,10 @@
-"use client";
-import { createTheme, ThemeProvider } from "@brikl/design-storefront";
+// 'use client'
+// import { createTheme, ThemeProvider } from "@brikl/design-storefront";
 import "./globals.css";
 
-const theme = createTheme({
-  "brks-global-brand-color-500": "#FF6D00",
-});
+// const theme = createTheme({
+//   "brks-global-brand-color-500": "#FF6D00",
+// });
 
 export default function RootLayout({
   children,
@@ -19,7 +19,8 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <ThemeProvider theme={theme}>{children}</ThemeProvider>
+        {/* <ThemeProvider theme={theme}>{children}</ThemeProvider> */}
+        {children}
       </body>
     </html>
   );

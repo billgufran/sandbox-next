@@ -8,5 +8,5 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-  presets: [require("@brikl/design-storefront/preset")],
+  // presets: [require("@brikl/design-storefront/preset")],
 };
